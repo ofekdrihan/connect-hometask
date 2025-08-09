@@ -14,5 +14,6 @@ const main = async () => {
   await mongoose.connect(process.env.MONGODB_URI);
   await resetCounters();
   await mongoose.disconnect();
+};
 
 main();
