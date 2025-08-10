@@ -24,17 +24,19 @@ A straightforward and maintainable REST API that supports CRUD operations and se
 
 ## Project Structure
 
+```
 connect-hometask/
-├── config/ # DB connection, environment config
-├── controllers/ # Route handlers (CRUD logic)
-├── models/ # Mongoose schemas
-├── routes/ # API endpoints
-├── middlewares/ # Middleware (e.g., API key validation, errors)
-├── seed/ # Optional seed data scripts
-├── app.js # Express app entry point
-├── .env.sample # Sample environment variables file
-├── package.json # Dependencies and scripts
-└── .gitignore # Files to ignore in Git
+├── config/          # DB connection, environment config
+├── controllers/     # Route handlers (CRUD logic)
+├── models/          # Mongoose schemas
+├── routes/          # API endpoints
+├── middlewares/     # Middleware (e.g., API key validation, errors)
+├── seed/            # Optional seed data scripts
+├── app.js           # Express app entry point
+├── .env.sample      # Sample environment variables file
+├── package.json     # Dependencies and scripts
+└── .gitignore       # Files to ignore in Git
+```
 
 ---
 
@@ -53,10 +55,10 @@ connect-hometask/
    MONGODB_URI=mongodb://localhost:27017/connect_api
    API_KEY=your_api_key_here
 
-4. (Optional) Seed database:
+5. (Optional) Seed database:
    node seed/seed.js
 
-5. Start the server:
+6. Start the server:
    npm run # With nodemon for development
 
 API Endpoints:
