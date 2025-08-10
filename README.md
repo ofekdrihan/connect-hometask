@@ -11,8 +11,6 @@ Built with **Node.js**, **Express**, and **MongoDB** (using **Mongoose**).
 - [Setup & Running](#setup--running)  
 - [API Endpoints](#api-endpoints)  
 - [Examples](#examples)  
-- [Future Improvements](#future-improvements)  
-- [License](#license)
 
 ---
 
