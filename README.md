@@ -42,24 +42,32 @@ connect-hometask/
 
 ## Setup & Running
 
-1. Clone the repo:
+1. **Clone the repo**:
    ```bash
    git clone https://github.com/ofekdrihan/connect-hometask.git
    cd connect-hometask
 
-2. Install dependencies:
+2. **Install dependencies**
+   ```bash
    npm install
+   ```
 
-3. Create a .env file based on .env.sample:
+3. **Create a `.env` file** based on `.env.sample`
+   ```env
    PORT=3000
    MONGODB_URI=mongodb://localhost:27017/connect_api
    API_KEY=your_api_key_here
+   ```
 
-5. (Optional) Seed database:
+4. **(Optional) Seed the database**
+   ```bash
    node seed/seed.js
+   ```
 
-6. Start the server:
-   npm run # With nodemon for development
+5. **Start the server**
+   ```bash
+   npm run   # Use nodemon for development
+   ```
 
 API Endpoints:
 
