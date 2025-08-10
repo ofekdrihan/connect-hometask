@@ -46,10 +46,13 @@ connect-hometask/
    git clone https://github.com/ofekdrihan/connect-hometask.git
    cd connect-hometask
 
-2. **Install dependencies**
+2. ## Install dependencies
    ```bash
    npm install
-   ```
+   npm install nodemon
+   npm install express
+   npm install mongoose
+   npm install dotenv
 
 3. **Create a `.env` file** based on `.env.sample`
    ```env
@@ -65,7 +68,7 @@ connect-hometask/
 
 5. **Start the server**
    ```bash
-   npm run   # Use nodemon for development
+   npm start   # Use nodemon for development
    ```
 
 API Endpoints:
