@@ -27,12 +27,12 @@ Built with a **clean and modular directory structure** — including `controller
 
 ```
 connect-hometask/
-├── config/          # DB connection, environment config
 ├── controllers/     # Route handlers (CRUD logic)
 ├── models/          # Mongoose schemas
 ├── routes/          # API endpoints
 ├── middlewares/     # Middleware (e.g., API key validation, errors)
 ├── seed/            # Optional seed data scripts
+├── utils/           # Utility functions/helpers
 ├── app.js           # Express app entry point
 ├── .env.sample      # Sample environment variables file
 ├── package.json     # Dependencies and scripts
