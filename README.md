@@ -80,15 +80,20 @@ API Endpoints:
 | GET    | `/items/:id`                  | Get item by ID                      |
 | GET    | `/items/search?query=...`     | Search items by name or description |
 
-All requests require the x-api-key header with a valid API key.
+> **Note:** All requests require the `x-api-key` header with a valid API key.
 
-Examples:
-Get all items:
-GET http://localhost:3000/items
-Headers:
-  x-api-key: your_api_key_here
+## Examples
 
-Search items:
-GET http://localhost:3000/items/search?query=gym
-Headers:
-  x-api-key: your_api_key_here
+- **Get all items**
+   ```http
+   GET http://localhost:3000/items
+   Headers:
+   x-api-key: your_api_key_here
+   ```
+
+- **Search items**
+   ```http
+   GET http://localhost:3000/items/search?query=gym
+   Headers:
+   x-api-key: your_api_key_here
+   ```
