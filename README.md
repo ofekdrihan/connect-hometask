@@ -18,7 +18,8 @@ Built with **Node.js**, **Express**, and **MongoDB** (using **Mongoose**).
 
 ## Overview
 
-A straightforward and maintainable REST API that supports CRUD operations and search for **items** and **categories**. It follows a clean directory structure—controllers, models, routes, and middleware—for ease of development and clarity.
+A straightforward and maintainable **REST API** that supports full **CRUD operations** and search for both **Items** and **Categories**.  
+Built with a **clean and modular directory structure** — including `controllers`, `models`, `routes`, and `middleware` — for better maintainability and ease of development.
 
 ---
 
